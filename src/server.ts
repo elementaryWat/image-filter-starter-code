@@ -21,7 +21,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
     }
     catch (error) {
-      res.status(400).send(error);
+      res.status(400).send("Invalid URL");
     }
   } );
   //! END @TODO1
